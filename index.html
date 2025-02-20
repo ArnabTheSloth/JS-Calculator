@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+  <script type="module" crossorigin src="./assets/script.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/style.css">
+</head>
+
+<body class="bg-slate-800 h-screen w-screen flex justify-center items-center text-white">
+    <main
+        class="h-full w-full lg:w-[25%] border-2 border-white/40 rounded-none lg:rounded-xl flex flex-col justify-end bg-slate-900">
+        <div class="text-xl px-4 break-words w-full text-right self-end text-white/80" id="subfield"></div>
+        <div class="text-4xl px-4 break-words w-full text-right self-end mt-2 min-h-12" id="textfield"></div>
+        <div
+            class="grid grid-cols-4 grid-rows-5 h-[60%] *:rounded-lg *:flex *:justify-center *:items-center text-2xl *:cursor-pointer mt-6">
+            <div class="btn lg:hover:bg-black/30 ctive:bg-black/40 text-red-600 bg-black/60" id="clearbtn">AC</div>
+            <div class="btn lg:hover:bg-slate-800/50 active:bg-slate-800" id="delbtn">Del</div>
+            <div class="btn operators lg:hover:bg-slate-800/50 active:bg-slate-800">/</div>
+            <div class="btn operators lg:hover:bg-slate-800/50 active:bg-slate-800">x</div>
+            <div class="btn num lg:hover:bg-slate-800/50 active:bg-slate-800">7</div>
+            <div class="btn num lg:hover:bg-slate-800/50 active:bg-slate-800">8</div>
+            <div class="btn num lg:hover:bg-slate-800/50 active:bg-slate-800">9</div>
+            <div class="btn operators lg:hover:bg-slate-800/50 active:bg-slate-800">-</div>
+            <div class="btn num lg:hover:bg-slate-800/50 active:bg-slate-800">6</div>
+            <div class="btn num lg:hover:bg-slate-800/50 active:bg-slate-800">5</div>
+            <div class="btn num lg:hover:bg-slate-800/50 active:bg-slate-800">4</div>
+            <div class="btn operators lg:hover:bg-slate-800/50 active:bg-slate-800">+</div>
+            <div class="btn num lg:hover:bg-slate-800/50 active:bg-slate-800">1</div>
+            <div class="btn num lg:hover:bg-slate-800/50 active:bg-slate-800">2</div>
+            <div class="btn num lg:hover:bg-slate-800/50 active:bg-slate-800">3</div>
+            <div class="btn lg:hover:bg-red-500/90 active:bg-red-500/80 row-span-2 bg-red-500" id="execute">=</div>
+            <div class="btn num lg:hover:bg-slate-800/50 active:bg-slate-800 col-span-2">0</div>
+            <div class="btn num lg:hover:bg-slate-800/50 active:bg-slate-800">.</div>
+        </div>
+    </main>
+
+</body>
+
+</html>
